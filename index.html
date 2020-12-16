@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mercedes-Benz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="padding-top: 20px;">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Mercedes-Benz</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#opis">A Class</a></li>
+          <li><a href="#opis">B Class</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Gclass">C Class <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#GLCclass">CLA Class</a></li>
+            </ul>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Gclass">G Class <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#GLCclass">GLC Class</a></li>
+              <li><a href="#GLEclass">GLE Class</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<div >
+     
+<ol class="breadcrumb" id="crumb" >
+    <h1>Mercedes-Benz przedstawia</h1> 
+    <li class="breadcrumb-item"><a href="#katalog">Foto katalog</a></li>
+    <li class="breadcrumb-item"><a href="#opis">Opis class</a></li>
+    <li class="breadcrumb-item"><a href="#formularz">Formularz kontaktu</a></li>
+    <li class="breadcrumb-item"><a href="#modalne">Przykład na cały ekran</a></li>
+</ol>
+</div> 
+
+<div class="container">
+    <h2>Foto Katalog</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
+  
+      
+      <div class="carousel-inner" >
+  
+        <div class="item active">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/2018_Mercedes-Benz_A200_AMG_Line_Premium%2B_1.3_Front.jpg" alt="A class" style="width:100%;height: 600px;">
+          <div class="carousel-caption">
+            <h3>A class</h3>
+            <p>A 45</p>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="https://www.mercedes-benz.pl/passengercars/mercedes-benz-cars/models/b-class/hatchback-w247/design/lines-comparison/_jcr_content/comparisonslider/par/comparisonslide_45739838/exteriorImage.MQ6.12.20201016134609.jpeg" alt="B class" style="width:100%;height: 600px;">
+          <div class="carousel-caption">
+            <h3>B class</h3>
+            <p>B 200</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="https://www.mercedes-benz.pl/passengercars/mercedes-benz-cars/models/c-class/saloon-w205/explore/highlights/_jcr_content/contentgallerycontainer/par/contentgallery_6cb4/par/contentgallerytile_8/image.MQ6.8.20191105201748.jpeg" alt="C class" style="width:100%;height: 600px;">
+          <div class="carousel-caption">
+            <h3>C class</h3>
+            <p>C 200</p>
+          </div>
+        </div>
+          
+        <div class="item">
+          <img src="https://www.selectcarleasing.co.uk/photos/lg_5ce80c0899ef83dd18b409f2640b2d691.jpg" alt="CLA class" style="width:100%;height: 600px;">
+          <div class="carousel-caption">
+            <h3>CLA class</h3>
+            <p>CLA 250</p>
+          </div>
+        </div>
+          
+        <div class="item">
+          <img src="https://www.mercedes-benz.pl/passengercars/mercedes-benz-cars/models/g-class/suv-w463/amg/comparison-slider/_jcr_content/comparisonslider/par/comparisonslide_1744052431/interiorImage.MQ6.12.20191209125711.jpeg" alt="G class" style="width:100%;height: 600px;">
+          <div class="carousel-caption">
+            <h3>G class</h3>
+            <p>G 63</p>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img src="https://www.autotrader.com/wp-content/uploads/2020/03/18C0974_004-source-.1..jpg?w=1024" alt="GLC class" style="width:100%;height: 660px;">
+          <div class="carousel-caption">
+            <h3>G class</h3>
+            <p>G 63</p>
+          </div>
+        </div>  
+      </div>
+  
+      
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+    
+    
+  <div class="panel-group" id="opis">
+  <h1 style="text-align: center;">Opis</h1>
+    <div class="panel panel-default">
+    
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">A class</a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+       
+        <div class="panel-body">
+          <p>Produkowany od roku 1997, model niższej klasy średniej (segment C, grupa premium). W klasie kompaktów znalazł się dopiero za sprawą debiutującej w roku 2012 trzeciej generacji. Modele W168 i W169 (poprzednie dwie generacje) miały nadwozie kompaktowych minivanów i klasyfikowane były w segmencie B. Klasa A stała się pierwszym Mercedesem w historii o napędzie na przednie koła. W aucie wdrożono nowatorski system mający absorbować siłę czołowego zderzenia o nazwie „Sandwich”. W wyniku problemów z przejściem tzw. „testu łosia”, produkcję Mercedesa <a href="#" data-toggle="tooltip" data-placement="bottom" title="Na przełomie 2000/2001 roku auto przeszło modernizację, a do oferty dołączyła wydłużona wersja Lang. W 2002 roku pod maskę klasy A trafi kolejny 140-konny motor. Rok później z linii produkcyjnych fabryki w Rastatt zjechały ostatnie egzemplarze tego auta. Mercedes klasy A napędzany był jednym z następujących silników: R4 8V 1,4 (82 KM) R4 8V 1,6 (102 KM) R4 8V 1,9 (125 KM) R4 8V 2,1 (140 KM)">Klass A</a> I generacji zawieszono na kilka miesięcy na przełomie lat 1997 i 1998.</p>
+        </div>
+      </div>
+    </div>
+  
+    
+    <div class="panel panel-default">
+    
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">B class</a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse">
+      
+        <div class="panel-body">
+          <p>Mercedes Klasa B to produkowany od 2005 r. kompaktowy minivan, który ze względu na rozmiary jak również typ nadwozia pozycjonowany jest pomiędzy segmentami C (niższa klasa średnia) a K (minivany). Model ten przez producenta określane jest jako Compact Sports Tourer. Klasę B uważa się za następcę Mercedesa Vaneo. W katalogu Mercedesa auto zajmuje pozycję obok mniejszej Klasy A, z którą ma wiele wspólnych elementów. Oba najmniejsze Mercedesy to także jedyne samochody niemieckiej marki o napędzie na przednie koła. Klasa B przeszła facelifting w roku 2008. Druga generacja Mercedesa Klasy B została wprowadzona na rynek w roku 2011.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+ 
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">C class</a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse">
+
+        <div class="panel-body">
+          <p>Produkowany od 1993 r. Mercedes Klasa C to przedstawiciel segmentu D (klasa średnia, grupa premium). Jest następcą Mercedesa W201 (znanego także jako 190). Do momentu debiutu na rynku Klasy A w roku 1997, Mercedes Klasy C był najtańszym i najmniejszym samochodem w katalogu niemieckiego producenta. Do wprowadzenia na rynek modelu CLA w roku 2013 był z kolei bazowym sedanem Mercedesa. Prezentując czwartą generację Klasy C, podwyższono jego prestiż poprzez upodobnienie modelu do flagowej Klasy S. Mercedes Klasa C zdobył wiele nagród, m.in. tytuł Samochodu Roku 1994 w Ameryce Północnej oraz Światowego Samochodu Roku 2015.</p>
+        </div>
+      </div>
+    </div>
+      
+        <div class="panel panel-default">
+ 
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">G class</a>
+        </h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse">
+
+        <div class="panel-body">
+          <p>Produkowany od roku 1979 samochód terenowy (segment I). Jedno z najsławniejszych aut w swojej klasie i zarazem prawdziwa chluba niemieckiego producenta. Wygląd Klasy G przez dziesięciolecia w praktyce wcale nie uległ zmianie, mimo że samochód poddawano zmianom technicznym. Początek prac nad stworzeniem Mercedesa Klasy G datuje się na rok 1972, a pierwszym celem było wyprodukowanie lekkiego samochodu terenowego dla armii niemieckiej. Decyzję o rozpoczęciu seryjnej produkcji Klasy G (od Geländenwagen <a href="#" data-toggle="tooltip" data-placement="bottom" title="G klasa od ponad 30 lat prezentuje się prawie tak samo. Charakterystyczny pudełkowaty kształt, ostre linie, pionowa, przednia szyba i przejawiająca się w detalach toporność, nie pozwala pomylić tego auta z żadnym innym. Wielu fanów motoryzacji żartobliwie twierdzi, że G-klasa była projektowana tylko za pomocą… ekierki. Jak widać, projektantowi wystarczyło to w zupełności, aby stworzyć auto, za którym obejrzy się prawie każdy. Topowa wersja została wyposażona dodatkowo w pewne, nie rzucające się w oczy, detale, takie jak 18-calowe obręcze w charakterystycznym dla AMG wzorze.">G55</a> – samochód terenowy) dostępnej na cywilnym rynku Mercedes podjął trzy lata później. Trzecia generacja modelu dostępna jest od roku 1990.</p>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <section id="formularz" class="section-form text-center">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputName">Imię</label>
+          <input type="imię" class="form-control" id="inputName" placeholder="Alex">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputSurname">Nazwisko</label>
+          <input type="nazwisko" class="form-control" id="inputSurname" placeholder="Ramsyi">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="youremail@gmail.com">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPhone">Telefon</label>
+          <input type="telefon" class="form-control" id="inputPhone" placeholder="123456789">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputAddress">Ulica</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="!!">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputNrdomu">Nrdomu</label>
+          <input type="text" class="form-control" id="inputNrdomu" placeholder="!!">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputCity">Miejscowość</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Miejscowość">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputkodpocztowy">Kod pocztowy</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Kod-pocztowy">
+        </div>
+      </div>
+      <br>
+      <div class="button-form">
+        <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" title="Send data">Submit</button>
+        <button type="reset" class="btn btn-primary" data-bs-dismiss="section-form" data-bs-toggle="tooltip" title="Dissmiss data">Reset</button>
+      </div>    
+    </form>
+  </section>
+    
+<div id="modalne" class="ModalneOkno">
+    <h1>Nowy GLS</h1>
+  <button class="btn btn-warning btn-modal"
+  data-toggle="modal"
+  data-target="#ModalWindow">
+Otwórz
+</button>
+<div id="ModalWindow"
+class="modal animated bounceIn"
+tabindex="-1"
+role="dialog"
+aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+  <h1 id="myModalLabel"
+      class="modal-title">
+    Nowy GLS
+  </h1>
+</div>
+<div class="modal-body">
+    <img src="https://moto.rp.pl/wp-content/uploads/2019/06/Mercedes-Benz-GLS-4.jpg" alt="Have a nice day" height="100%";width="100%">
+ </div>
+<div class="modal-footer">
+  <button class="btn btn-danger"
+          data-dismiss="modal">
+    close
+        </div>
+        </div>
+    </div>
+ </div>
+</div>
+   
+</body>
+</html>
